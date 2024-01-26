@@ -1,0 +1,175 @@
+# create and storing formatted json string into local variable
+> local _json=`jo -p -d. name=Linux point[]=1 point[]=2.59 geo.lat=10 geo.lon=20.45 geo.repeat=$(jo -d. name=Linux point=$(jo -a 1 2.59) geo[lat]=10 geo[lon]=20.45 foo=null bar=true) foo=null bar=true`;
+> echo $_json;
+#
+{
+   "name": "Linux",
+   "point": [
+      1,
+      2.59
+   ],
+   "geo": {
+      "lat": 10,
+      "lon": 20.45,
+      "repeat": {
+         "name": "Linux",
+         "point": [
+            1,
+            2.59
+         ],
+         "geo": {
+            "lat": 10,
+            "lon": 20.45
+         },
+         "foo": null,
+         "bar": true
+      }
+   },
+   "foo": null,
+   "bar": true
+}
+*************************************************************************
+# retrieve a specific leaf value (with jshon) , in (unstring) decoded raw
+> echo $_json | jshon -e geo -e repeat -e name -u;
+#
+Linux
+*************************************************************************
+# retrieve 'type' in symbol of element
+> echo $_json | jshon -e geo -e repeat -e point -t;
+#
+array
+*************************************************************************
+# retrieve the count of element or array
+> echo $_json | jshon -e geo -e repeat -e point -l;
+#
+2
+*************************************************************************
+# (across) maps the remaining actions across the selected element.  Only works on objects and arrays.  Multiple -a calls can be nested
+> echo $_json | jshon -e geo -e repeat -e geo -a -t;
+#
+number
+number
+*************************************************************************
+# retrieve parent element
+> echo $_json | jshon -e geo -e repeat -e geo -p -e point;
+#
+[
+ 1,
+ 2.5899999999999999
+]
+*************************************************************************
+# replace leaf value (non-array)
+> local _json=`echo $_json | jshon -e geo -e repeat -e geo -n 15 -i lon -p -p -p`;
+#
+# returns and assigns the complete _json with updated .geo.repeat.geo.lon as 15
+# tips: use -s instead -n for string value
+*************************************************************************
+# replace total valueset (array)
+>
+#
+*************************************************************************
+# replace value to a specific array index (array)
+> local _json=`echo $_json | jshon -e geo -e repeat -e point -d 1 -n 9 -i 1 -p -p -p`;
+#
+...
+   "point": [
+    9,
+    1
+   ],
+...
+*************************************************************************
+# add value to a specific array index (array)
+> local _json=`echo $_json | jshon -e geo -e repeat -e point -n 5 -i 1 -p -p -p`;
+#
+...
+   "point": [
+    9,
+    5,
+    1
+   ],
+...
+*************************************************************************
+# delete element
+> local _json=`echo $_json | jshon -e geo -e repeat -e geo -d lat -p -p -p`;
+#
+# returns and assigns the complete _json without .geo.repeat.geo.lat
+*************************************************************************
+# add new leaf & value
+> local $_json=`echo $_json | jshon -e geo -e repeat -e geo  -n 13 -i "alt" -p -p -p`;
+#
+...
+   "geo": {
+    "lat": 10,
+    "lon": 20.449999999999999,
+    "alt": 13
+   },
+...
+*************************************************************************
+# add new element
+> echo $_json | jshon -e geo -e repeat -s `jo -d. area=API user.firstname=D user.lastname=Tapader` -i "flag" -p -p;
+#
+...
+  "foo": null,
+   "bar": true,
+   "flag": "{\"area\":\"API\",\"user\":{\"firstname\":\"D\",\"lastname\":\"Tapader\"}}"
+  }
+...
+*************************************************************************
+
+
+
+
+
+*************************************************************************
+# array of list of files & directories in current directory -p pretty print
+> jo -p -a *;
+#
+[
+   "cattest.txt",
+   "Desktop",
+   "Documents",
+   "Downloads",
+   "github",
+   "Music",
+   "Pictures",
+   "Public",
+   "snap",
+   "Templates",
+   "Videos"
+]
+*************************************************************************
+# creates json object -p pretty print
+> jo -p -d. name=Linux point[]=1 point[]=2 geo[lat]=10 geo[lon]=20.45 foo=null bar=true;
+#
+{
+   "name": "Linux",
+   "point": [
+      1,
+      2
+   ],
+   "geo": {
+      "lat": 10,
+      "lon": 20.45
+   },
+   "foo": null,
+   "bar": true
+}
+
+
+
+*************************************************************************
+#  retrieve element , returns raw json data (with jq)
+> echo $_json | jq ".geo.repeat.geo.lon";
+# 20.45
+*************************************************************************
+# retrieve element from ' curl '
+> curl http://api.open-notify.org/iss-now.json | jq '.';
+# . .
+*************************************************************************
+# retrieve element sample jq query
+> local _sample_jq_query=`jq '.[] |
+	select(.package=="a-la-carte") |
+	.category,.package,.name,.cno,.price' $_channellist_json_file`;
+	_dialog._message "$_sample_jq_query" "Sample jq query" 35 45;
+# . .
+*************************************************************************

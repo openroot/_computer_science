@@ -1,0 +1,18 @@
+> // When want to (without restart system) Switch Project folder to "Serve project" a-fresh At VisualStudioCode
+1. sudo netstat -plnt // shows all the ports getting LISTEN currently
+2. kill < pid-having-[pid]/php > // stops the desired running port
+
+> // How to edit specific config for php modules , say XDebug
+1. php --ini
+2. nano /etc/php/8.2/cli/conf.d/20-xdebug.ini // edit etc/php/8.2/cli/conf.d/20-xdebug.ini
+3. // add line 'xdebug.log_level=0' and save. This particular setting remove annoying "...Could not connect to debugging client..." message every run.
+
+> apt install php-xml //install missing PHP Plugins be like, php-[xml/mbstring/etc]
+
+> php -h        // Help for PHP commands
+> php -v        // Installed PHP version number
+> php -m      // Show installed/compiled in modules
+> php -i        // Executes phpinfo()
+> php <file-name.php>    // Executes the file
+
+> sudo chmod 644 config.inc.php // Wrong permissions on configuration file of phpmyadmin

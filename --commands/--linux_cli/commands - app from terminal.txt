@@ -1,0 +1,74 @@
+# To avoid error prints in terminal by adding following to the end: || true;
+# example: celluloid "/media/devop/0disk--1set/--multimedia/--video/--sample/Wild Snake in 4K Ultra HD - 1080p.mp4" || true;
+
+# PulseEffects
+pulseeffects;
+
+# Celluloid
+celluloid "/media/devop/0disk--1set/--multimedia/--video/--sample/Wild Snake in 4K Ultra HD - 1080p.mp4";
+
+# System Monitor
+gnome-system-monitor;
+
+# Kate
+kate;
+
+# Github
+/usr/bin/github;
+
+# Konsole
+konsole;
+
+# Visual Code
+/usr/bin/code;
+
+# Postman
+postman;
+
+# Artha
+artha;
+
+# Gnome Calculator
+gnome-calculator;
+
+# Gnome Clocks
+gnome-clocks;
+
+# Gnome Calendar
+gnome-calendar;
+
+# Cmatrix
+cmatrix;
+
+# Gnome Disks
+gnome-disks;
+
+# Libre Office
+/usr/lib/libreoffice/program/oosplash;
+
+# Gimp
+gimp;
+
+# Drawing
+drawing;
+
+# Google Chrome
+google-chrome-stable;
+
+# Filezilla
+filezilla;
+
+# Virtualbox
+virtualbox;
+
+# OBS Studio
+obs;
+
+# Software Manager
+mintinstall;
+
+# Library
+thingy;
+
+# neofetch
+neofetch;

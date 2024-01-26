@@ -1,0 +1,56 @@
+[[ to update it in windows ]]
+S1. > git update-git-for-windows
+
+[[ determine if Git is already installed on your computer ]]
+S1. > git --version // Determine if Git is already installed on your computer
+
+[[ installing git in ubuntu terminal ]]
+S1. > apt install git
+
+[[ login into git ]]
+S1. > git config --global user.name "openroot"
+S2. > git config --global user.email "dev.openroot@gmail.com"
+
+[[ check if Git credentials are configured ]]
+S1. > git config --global --list // Check if Git credentials are configured
+
+[[ cloning a remote repo into local directory any ]]
+S1. > git clone https://github.com/openroot/devop.42web.io.git
+// git clone https://github.com/openroot/_sh.git
+
+[[ change mode of a shell script file to executable if permission denied in execution ]]
+S1. > chmod -R -v 777 _failsherifsh // say , downloaded with git clone , where _failsherifsh is git repo root directory , it changes mode all directories and files recursively // // ls -l <filename> ,to see permission current
+
+[[ see branch lists local clone ]]
+S1. > git branch --list
+
+[[ switch to a branch ]]
+S1. > git checkout <name-of-branch> // git checkout main
+
+[[ add branch to local clone ]]
+S1. > git branch <branchname>
+
+[[ force local branch updates to <origin/master> ]]
+S1. > git push --force // For details: https://docs.gitlab.com/ee/topics/git/git_rebase.html#force-push
+
+[[ rename git branch locally and remotely ]]
+S1. > git branch -m old_branch new_branch            // Rename branch locally
+S2. > git push origin :old_branch                                // Delete the old branch
+S3. > git push --set-upstream origin new_branch    // Push the new branch, set local branch to track the new remote
+
+[[ to view your remote repositories ]]
+S1. > First navigate to the repo directory via Git CMD (where the .git folder exists)
+S2. > git remote -v // To view your remote repositories
+
+[[ to see local changes ]]
+S1. > git checkout // current branch , git branch --list
+
+[[ pull remote updates (current branch), discarding local updates (without stash) ]]
+S1. > git restore .
+S2. > git pull
+S3. > git checkout // : Your branch is up to date with 'origin/<branch name>'.
+
+[[ removes previously local system cached from git tracking  ]]
+S1. > git rm --cached _dialogbox/_temporary_container/output.txt // removes previously local system cached from git tracking , make sure you add file same to .gitignore if want ignore in next commits
+
+

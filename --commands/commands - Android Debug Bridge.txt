@@ -1,0 +1,19 @@
+install https://forum.xda-developers.com/t/tool-minimal-adb-and-fastboot-2-9-18.2317790/
+1.> Attach android with PC
+2. >Open "Minimal ADB.."
+
+> adb connect 192.168.225.181 // Connects Android devices wirelessly over same WiFi network (developer mode must be on)
+
+> adb devices // list the devices available
+
+> adb shell // to go into shell mode
+
+> adb shell pm list packages // list all the packages installed
+
+> adb shell pm path com.example.someapp // gets the file system path of the package specified
+
+> adb shell settings put global policy_control immersive.full=com.android.chrome  // '.full' put app into full-screen mode, '.stable' back to default
+
+> adb shell settings put global policy_control null* // Back to normal/default state
+
+> adb install C://Termux_v0.118.0_apkpure.com.apk // install the APK into device

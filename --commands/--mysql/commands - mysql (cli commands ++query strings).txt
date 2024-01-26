@@ -1,0 +1,60 @@
+/* --start // mysql cli commands */
+terminal> mysql -u root -p // or, mysql -p ,just ,for default user |  root :=username , <default_password> :=password say, |  login into 'localhost' mysql in terminal
+mysql> alter user 'root'@'localhost' identified by '<new_password>'; flush privileges; // updating user mysql password
+/* --end */
+
+/* --start // query strings */
+
+/* --start // _template table ,with two sample fields */
+CREATE TABLE `epiz_32325036_devop`.`_template` (
+    /* meta fields */
+    `_metaid` BIGINT UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'meta field',
+    `_metacreatedon` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT 'meta field',
+    `_metatouchedon` TIMESTAMP NULL DEFAULT NULL COMMENT 'meta field',
+    `_metaisvalid` BOOLEAN NULL DEFAULT NULL COMMENT 'meta field',
+    `_metaorder` BIGINT NULL DEFAULT NULL COMMENT 'meta field',
+    `_metaauthor` VARCHAR(64) NULL DEFAULT NULL COMMENT 'meta field',
+    `_metaidconnect` BIGINT NULL DEFAULT NULL COMMENT 'meta field',
+    `_metaidinitial` BIGINT NULL DEFAULT NULL COMMENT 'meta field',
+    `_metaiscurrent` BOOLEAN NULL DEFAULT NULL COMMENT 'meta field',
+    /* ,table specific ,field(s) any */
+    `_topic_sample` VARCHAR(256) NULL DEFAULT NULL COMMENT 'table specific field',
+    `_value_sample` JSON NULL DEFAULT NULL COMMENT 'table specific field',
+    /* indexes */
+    PRIMARY KEY (`_metaid`),
+    INDEX `_metaisvalid` (`_metaisvalid`),
+    INDEX `_metaidinitial` (`_metaidinitial`),
+    INDEX `_metaauthor` (`_metaauthor`),
+    INDEX `_metaiscurrent` (`_metaiscurrent`),
+    UNIQUE `_metaorder` (`_metaorder`)
+) ENGINE = MyISAM COMMENT = '_template table ,with two sample fields.';
+/* --end */
+/* --start // insert a row into _template table */
+INSERT INTO `epiz_32325036_devop`.`_template` (
+    `_metaid`,
+    `_metacreatedon`,
+    `_metatouchedon`,
+    `_metaisvalid`,
+    `_metaorder`,
+    `_metaauthor`,
+    `_metaidconnect`,
+    `_metaidinitial`,
+    `_metaiscurrent`,
+    `_topic_sample`,
+    `_value_sample`
+) VALUES (
+    NULL,
+    current_timestamp(),
+    NULL,
+    NULL,
+    NULL,
+    NULL,
+    NULL,
+    NULL,
+    NULL,
+    NULL,
+    NULL
+);
+/* --end */
+
+/* --end */

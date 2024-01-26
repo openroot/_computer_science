@@ -1,0 +1,143 @@
+// go to _sh directory in flash drive in mobile Termux
+> cd /storage/58A5-1B1E/_sh/
+
+> grep -r "defined('YII_ENV') or define('YII_ENV', 'dev');" .  // Search for an Exact Match. For example, to search for the exact word “gii” within all files and types in the current directory and all sub-directories // another file filtration with > grep -r --include "*.php" "defined('YII_ENV') or define('YII_ENV', 'dev');" .
+
+windows cmd>>
+bcdedit /set {bootmgr} path \EFI\ubuntu\grubx64.efi
+bcdedit /set {bootmgr} path \EFI\Microsoft\Boot\bootmgfw.efi
+// sets GRUB as the boot manager
+
+> cat > cattest.txt // creates a file and let type content 'Enter-able' and last enter hit Ctrl+d to save .
+> cat cattest.txt // prints content of cattest.txt
+> while read -r _line
+do
+    echo "$_line";
+done < "channel-list.txt"; // read text file line by line
+
+>_string="SH is /lorem/ipsum";
+echo "After Replacement:" ${_string//lorem/foo}; // >"SH is /foo/ipsum"
+
+echo "After Replacement:" ${filename//bash/sh}
+
+
+> j=0;while true; do let j=$j+1; for i in $(seq 0 20 100); do echo $i;sleep 1; done | dialog --gauge "Install part $j : `sed $(perl -e "print int rand(99999)")"q;d" /usr/share/dict/words`" 6 40;done
+// Pretend to be busy in office to enjoy cup coffee
+
+> kill 81075 // terminates process with PID 81075; use <kill -9 81075> for killing
+
+> sudo ln -s "/media/0disk--1set/--system/--git/--code/github" "github" // creating a link; 2nd param is the link title.
+> unllink <link> // remove a link
+
+> pwy // View Weather from OpenWeatherMap API, after installing: pip3 install pwy
+
+> lspci -v | egrep -i --color 'vga|3d|2d' //
+> lspci | grep -i --color 'vga\|3d\|2d' //
+> lshw -C display //  information about your GPU
+
+> clear // clear the terminal
+> sudo su // le [root]
+> su devop // switch current user to 'devop' for an instance
+> mkdir ./--code // creates --code directory cleaning into the current clean
+> mv ./--code ./--git/ // cleans --code inside --git
+> mv ./--temp ./tmp // cleans --temp to --tmp
+> rm -r veggies3 // to remove a directory and all its contents, including any subdirectories and files, use the rm command with the recursive option, -r.
+> cd ..// clean it to directory up
+> /etc/init.d/bluetooth status
+> apt update // Update packages
+> apt upgrade // Installs updated packages
+> apt autoremove // removes unneccessary libraries
+> apt search "vlc" // search a package
+> apt install vlc // install a package
+> apt remove vlc // uninstall a package
+> git clone https://github.com/vinceliuice/Tela-circle-icon-theme.git // downloads a git to the current directory
+> add-apt-repository ppa:mark-pcnetspec/conky-manager-pm9
+> sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 4EB27DB2A3B88B8B // say, 4EB27DB2A3B88B8B for app GoogleEarth, adds missing key to the keybase
+> nmtui // to connect to WiFI network
+> top // process most resource-hungry process, Ctrl+C to stop it.
+> df -H // shows used and free space in drive
+> _current_date="DATE: $(date)"; echo "$_current_date"; // substitution of a command's output to a variable, and then printing it.
+
+> tar -czvf ~/"Documents/Untitled Folder.tar.gz" ~/"Documents/Untitled Folder" // Creates and saves zip file(tar.gz) of "<Home>/Documents/Untitled Folder" into "<Home>/Documents/" directory.
+> _current_date="$(date)"; tar -czvf ~/"Documents/--backup/test_f3/test_f3 ($(echo $_current_date)).tar.gz" "test_f3"; // Expecting terminal at "test_f3" directory.
+
+> sudo add-apt-repository universe -y && sudo add-apt-repository ppa:agornostal/ulauncher -y && sudo apt update && sudo apt install ulauncher
+**************************************************************************************************************************************************************
+> sudo adduser devop vboxsf // Virtualbox shared folder permission (denied without 'root')
+**************************************************************************************************************************************************************
+> import -window root -resize 1920X1080 -delay 200 screenshot.png // take screenshot
+> tesseract -l eng "d2h - alacarte.png" output_alacarte;
+cat output_alacarte.txt; // OCR image into text file
+> elinks https://www.google.co.in/search?q=india+independence+day | grep  "1947" // search content in google having keyword "1947"
+**************************************************************************************************************************************************************
+// put a console clock in top right corner
+while sleep 1; do
+tput sc;
+tput cup 1 $(($(tput cols)-40))
+date;
+tput rc;
+done &
+**************************************************************************************************************************************************************
+> which dotnet // shows executable path of the executable package "dotnet"
+> export DOTNET_ROOT=/usr/bin/dotnet // when "which dotnet" returned "/usr/bin/dotnet"
+   export PATH=$PATH:$DOTNET_ROOT
+// this above two commands add an executable to PATH variable of LinuxMint
+> gnome-terminal --command="bash -c '[command1]; [command2]; $SHELL'"
+// Opens a new terminal and execute commands inside ( bash -c tells it is a bash command, command1 and command2 are commands to be executed on new terminal, $SHELL makes the terminal remain open to work on. )
+
+> ssh -i "debianserver.pem" admin@ec2-52-66-253-36.ap-south-1.compute.amazonaws.com // linux terminal to an (ubuntu server) aws instance, make sure the chmod of the .pem should have been always > chmod 400 ubuntuserver.pem, also put login username with an @ say, ubuntu@ec2-5...
+
+> puttygen ubuntuserver.pem -O private -o ubuntuserver.ppk // say aws RSA privatekey ubuntuserver.pem to ubuntuserver.ppk (.ppk is accepted by putty client)
+**************************************************************************************************************************************************************
+> // add , 'vboxusers' group to 'devop' user
+1. usermod -aG vboxusers devop //adds
+2. groups devop // shows if it has been added
+**************************************************************************************************************************************************************
+> // enbale blutooth service at startup
+1. systemctl status bluetooth.service
+2. systemctl enable bluetooth.service
+3. systemctl start bluetooth.service
+4. systemctl stop bluetooth.service
+**************************************************************************************************************************************************************
+[ How to recursive look for specific ' Line of Code ' with grep command. ]
+a. Shell command at first directory : grep -r --include "*.php" "defined('YII_ENV') or define('YII_ENV', 'dev');" .
+( with added file type )
+
+b. Shell command at first directory : grep -r "defined('YII_ENV') or define('YII_ENV', 'dev');" .
+( irrespective of file type )
+**************************************************************************************************************************************************************
+[[display with 'xrandr' command]]
+> export XAUTHORITY=/home/<user>/.Xauthority [first time, if 'xrandr' isn't working]
+> xrandr --display :0.0
+
+
+add following in "launch.json" in visual code c# console project to take Console.ReadLine() instructions from app itself:
+"configurations": [
+       {
+             ..
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+
+
+
+(( Holding down Alt & SysRq (which is the Print Screen key) while very slowly typing REISUB will get you safely restarted in some cases. ))
+**************************************************************************************************************************************************************
+_oifs=$IFS;
+IFS=$'\n';
+_lines=(`cat test.xml`);
+IFS=$_oifs;
+#echo "${_lines[@]}";
+for _line in "${_lines[@]}";
+do
+#       echo ">>> $_line";
+        _oifs=$IFS;
+        IFS=$' ';
+        _split=(${_line});
+        IFS=$_oifs;
+        for _token in "${_split[@]}";
+        do
+                echo $_token | grep -o 'data-name="[^"]*"';
+        done
+done
+
+**************************************************************************************************************************************************************

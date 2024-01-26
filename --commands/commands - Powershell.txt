@@ -1,0 +1,11 @@
+[[ recursive search for a string(s) ]]
+> Get-ChildItem -recurse | Select-String -Pattern "example string" | group Path | select Count, Name
+> Get-ChildItem -recurse | Select-String -Pattern "example string" | group Filename | select Count, Name
+> Get-ChildItem -recurse | Select-String -Path "c:\foo\*.txt" -Pattern "example string" | group Filename | select Count, Name
+> Get-ChildItem -recurse | Select-String -Path "c:\foo\*.txt", "c:\foo\*.log" -Pattern "example string1", "example string2" | group Filename | select Count, Name
+
+[[ recursive search for a string(s) with 'grep' ]]
+S1. > grep -nr '<string_to_search>'
+
+
+> sfc /scannow // scans and fixes corrupt system files

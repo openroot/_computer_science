@@ -1,0 +1,28 @@
+1. S7-Edge      : 192.168.43.1      (on Cell DATA)
+// ( sshd ) <ip addr>:8022@root:<global pass>
+2. LinuxMINT64  : 192.168.43.164    (on Cell DATA)
+2. Kali64       : 192.168.43.164    (on Cell DATA)
+3. Projector    : 192.168.43.225    (on Cell DATA)
+4. FireTV Stick : 192.168.43.3      (on Cell DATA)
+
+(Start SSH-server in Android by entering command 'sshd' inside "termux" app, you can download it from "https://apkpure.com/termux/com.termux?from=brand_search")
+
+1. apt list openssh-server
+2. apt install openssh-server
+3 . systemctl start ssh.socket // If you only need to temporarily start up the SSH service it’s recommended to use ssh.socket
+3. systemctl enable ssh.service // To instead permanently enable the SSH service to start whenever the system is booted use
+4. systemctl start ssh.service // Then to use SSH immediately without having to reboot use
+5. systemctl status ssh.service // To check the status of the service you can use
+6. systemctl disable ssh.service // And to disable the SSH service so it no longer starts at boot
+
+// to install samba , to share over local ip // https://www.how2shout.com/linux/install-samba-on-linux-mint-to-share-files-with-windows/
+1. apt install samba
+2. systemctl status smbd // or ; systemctl status smbd.service
+3. systemctl --enable now smbd // or ; systemctl start smbd.service
+4. ufw allow samba
+5. usermod -aG sambashare devop
+6. smbpasswd -a devop // : set requested password to it to <global pass>
+7. ( now say share "share this folder" from file manager in linux modal box )
+8. done ; test it local from android say vlc // smb://server-ip/shared-folder-path
+
+

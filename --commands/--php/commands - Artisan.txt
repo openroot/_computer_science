@@ -1,0 +1,20 @@
+*** To run the commands go to the Laravel project's root folder (the 'artisan' file should exist here) from terminal.
+-----------------------------------------------------------------------------------------
+[[basics]]
+> php artisan --version // Shows the installed Laravel framework version
+> php artisan // Shows all the possible things we can do with artisan
+> php artisan serve // Serve the application on the PHP development serve. Typically it launches the website at 127.0.0.1:8000
+> php artisan ui bootstrap --auth // Scaffolds frontend with use login / registraton feaures using 'bootstrap' framework
+
+[[controller]]
+> php artisan make:controller <ControllerName> // Creates the new controller
+
+[[model]]
+> php artisan make:model  <ModelName> // Create a new Eloquent model class
+
+[[migration | ref: https://laravel.com/docs/7.x/migrations]]
+> php artisan make:migration <create_tablename_table> // Creates the migration file; remember naming convention of the file is crutial here as it feeds in the file contents according to the action specified in the <name>
+> php artisan migrate // Runs 'up' function for each of the migration files (the ones which are not executed yet)
+> php artisan migrate:fresh // First it drops off all the tables in the db and then runs 'up' function for each of the migration files
+> php artisan migrate:refresh // First it drops off all the tables in the db created with migration files and then runs 'up' function for each of the migration
+> php artisan migrate:rollback // Undone the last batch of migrations

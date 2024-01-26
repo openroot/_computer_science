@@ -1,0 +1,17 @@
+1. Alt+<respective numeric digit>
+Access respective opened tab.
+
+2. Ctrl+F2
+Change all occurrences.
+
+3. Ctrl+(K,<respective numeric digit>)
+Collapse respective level.
+
+4. Ctrl+(K,J)
+Un-collapse respective level.
+
+5. Ctrl+Alt+[
+Collapse current only segment.
+
+6. Ctrl+Alt+]
+Un-collapse current only segment.

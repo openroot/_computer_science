@@ -1,0 +1,1 @@
+> laravel new <ProjectName> // Creates the new project in current directory. e.g, > laravel new pizzahouse

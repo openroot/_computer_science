@@ -1,0 +1,10 @@
+1. Time
+2. Purpose
+3. Data
+4. Cloud
+5. Social Connect
+6. Marketing
+7. Product
+
+8. Gateway To Products (is patt(h)ern, theme , module\modules say not yours infinite corrupt?? php.ini)
+9. Connect to DEVs console

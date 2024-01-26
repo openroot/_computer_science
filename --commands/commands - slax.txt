@@ -1,0 +1,13 @@
+// Start in GUI mode.
+Assuming you just want to avoid typing
+Code:
+startx
+every time, edit the file /etc/inittab and change the line that looks like
+Code:
+id:3:initdefault:
+to
+Code:
+id:4:initdefault:
+Many other distros use runlevel 5 for their graphical login. In Slackware, runlevel 5 is identical to runlevel 3 (ie console boot).
+
+If new to Linux, think about leaving it as it is to fixing things easier in break something in the GUI.

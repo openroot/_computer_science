@@ -1,0 +1,45 @@
+*** Login in to SSH with PuTTY and enter the following commands:
+1. > 'sudo su'				// allows you to run programs as another user, by default the root user
+2. > cd /var/www/html/bin/ 	// basically go to the folder where the file 'magento' resides)
+-------------------------------------
+
+[[Reindexing]]
+> php mageo indexer:status 	// shows current status of all indexes
+> php magento indexer:reindex	// reindex all indexes
+
+[[Cleaning cache]]
+> php magento cache:clean
+
+[[Module installation]]
+S1. [Upload the module to 'app/code' directory]
+S2. > php magento setup:upgrade
+S3. > php magento setup:di:compile // optional
+S4. > php magento setup:static-content:deploy -f
+s5. > php magento cache:flush // optional
+
+[[Module installation with composer]]
+S1. > composer require <company/module_name> // e.g., composer require mageplaza/module-smtp
+S2. > php bin/magento setup:upgrade
+S3. > php bin/magento setup:static-content:deploy -f
+
+[[Module handling]]
+> php magento module:status
+> php magento module:enable Dt_News --clear-static-content
+> php magento module:disable Dt_News --clear-static-content
+
+[[To remove a whole folder and its content recursively]]
+> rm -rf /var/www/html/app/code/payu
+
+[[To change the Magento mode]]
+> php magento deploy:mode:show
+> php magento deploy:mode:set default
+> php magento deploy:mode:set developer
+
+[[Installing magento theme]]
+First put the theme's 'app' & 'pub' folder the root magento folder, then execute the following commands:
+> php magento setup:upgrade
+> php magento setup:di:compile
+> php magento setup:static-content:deploy --theme {vendorName}/{themeName}
+
+
+> php magento sampledata:deploy

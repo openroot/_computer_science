@@ -1,0 +1,3 @@
+> composer -h // composer help
+> composer -v // installed composer version
+> composer global require <package-name> // installs the package globally (can be used through out any projects located anywhere). e.g, > composer global require laravel/installer

@@ -1,0 +1,24 @@
+> mysql -u root // login to mysql server (if 'root' user doesn't have password)
+> mysql -u root -p // login to mysql server (enter the user's passsword at the prompt) , available credentials, username: devop password: <default_password>
+> exit // disconnect from mysql server
+
+> show databases; // shows existing databases
+> create database `<dbname>`;  // creates the database (if not exists)
+> use `<dbname>`; // selects the database to access
+
+> CREATE USER 'devop'@'localhost' IDENTIFIED BY '<default_password>';
+> GRANT ALL PRIVILEGES ON *.* TO 'devop'@'localhost' WITH GRANT OPTION;
+> SET GLOBAL default_storage_engine = 'InnoDB';
+
+[[export DB]]
+> mysqldump -u[username] -p[password] -h[host] --routines --triggers  [dbname] -r <filename>.sql
+e.g.,
+1. > mysqldump -uadmin -p<default_password> -hlocalhost --routines --triggers bc_ec_ma_sd -r bc_ec_ma_sd.sql
+2. > mysqldump -uadmin -p<default_password> -hlocalhost --routines --triggers bc_ec_ma_sd -r bc_ec_ma_sd-$(date "+%b_%d_%Y_%H_%M_%S").sql
+3. > mysqldump -uadmin -p<default_password> bc_ec_ma_sd | gzip > bc_ec_ma_sd.sql.gz (this one not working)
+
+[[import DB]]
+> mysql -u[username] -p[password] -h[host] [dbname] < <filename>.sql
+e.g.,
+1. > mysql -uadmin -p<default_password> -hlocalhost bc_ec_ma_sd < bc_ec_ma_sd-May_27_2020_07_00_20.sql (this only works in cmd)
+2. > gzip -dc bc_ec_ma_sd-May_27_2020_07_00_20.sql.gz | mysql -uadmin -p<default_password> -hlocalhost bc_ec_ma_sd (this works in powershell as well)
