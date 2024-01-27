@@ -1,33 +1,33 @@
-/Equivalency in Technology (Telepathetic ORDER)/
+| Equivalency in Technology > Telepathetic Order |
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-x.	Ideal MachineUserInterface Concentric (MUI Architecture)						== Immune System		(INTERNET Architecture)								=[IDE Collective Totality]	(ICT Framework)
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-1.		Qt 					()														== Visual C++			(Windows Programming)								=[Driver App]				()
-2.		Gnome 				()														== HTML 				(PHP)												=[Web App]					()
-3.		GTK 				()														== Windows Forms App	(Traditional Forms App with ActiveX-Controller)		=[Productive App]			()
-4.		KDE 				(Plasma Architecture)									== XAML 				(Windows XAML App)									=[Graphical App]			()
-5.		BASH 				()														== PowerShell 			(VBScript)											=[Terminal App]				()
-6.		RealTimeOS			(Delta Label SATA Architecture)							== SQL					(LINQ)												=[ERD App]					(Twin-Set Mechanized SAD Management)
-7.							()														== Kendo				(jQuery)											=[API App]					()
-8.							()														== eCommerce			(Magento)											=[AI App]					()
-9.							()														== IoT					(AmazonWebService)									=[Cloud App]				()
-10.		Canonical			(Debian Architecture)									== Notepad Plus Plus	(Driver)											=[Writing App]				(Institute Session Management)
-11.		WebRTC				(Global Regular Expression Print, GREP Architecture)	== SoundCloud			(uTorrent)											=[Comment App] 				(Traffic Signature Management)
-12.		SWAP				(Import / Export Architecture)							== Google SketchUp		(Wix)												=[3D App] 					(Favourite Namespace Management)
-13.		HTML5				(Vector Pool Architecture)								== SWF					(Search Engine Optimus)								=[Reader App]				(Suggestion Event Organizer Management)
-14.		JAR					(Multilingual-Pad Architecture)							== ALSong Player		(Symbian)											=[Metadata App] 			(Soldier Aspect Management)
-15.		Picture in Picture	(Mount Architecture)									== ACDSee Studio		(Event Delegate)									=[Print App] 				(Cloth Attire Start Management)
-16.		Distro				(Apt Repository Architecture)							== Envato				(async)												=[Static App] 				(Automation Opposite Matrix Management)
-17.		Kernel				(Pseudo Cookie-Admin Architecture)						== SSL Indent			(OAuth)												=[Memory App] 				(Time-lapse CookieDeepawali Management)
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-| Sort	| Linux Environment	(! Open Source)											| Windows Environment	(! Microsoft Corporation)							| Example					(! App App)
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------0
+x.		Cushion				| MachineUserInterface		> MUI Architecture										= Immune System				> INTERNET Architecture								< IDE Collective Totality	> ICT Framework
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------1
+1.		Manual				| Qt 						>														= Visual C++				> Windows Programming								< Driver App				> 
+2.		Start-up			| Gnome 					>														= HTML 						> PHP												< Web App					> 
+3.		Boot				| GTK 						>														= Windows Forms App			> Traditional Forms App with ActiveX-Controller		< Productive App			> 
+4.		License				| KDE	 					> Plasma Architecture									= XAML 						> Windows XAML App									< Graphical App				> 
+5.		Classification		| BASH 						>														= PowerShell 				> VBScript											< Terminal App				> 
+6.		Junction			| RealTimeOS				> Delta Label SATA Architecture							= SQL						> LINQ												< ERD App					> Twin-Set Mechanized SAD Management
+7.		Profile				|							>														= Kendo						> jQuery											< API App					> 
+8.		Sandbox				|							>														= eCommerce					> Magento											< AI App					> 
+9.		Assistance			|							>														= IoT						> AmazonWebService									< Cloud App					> 
+10.		Cabinet				| Canonical					> Debian Architecture									= Notepad Plus Plus			> Driver											< Writing App				> Institute Session Management
+11.		Notification		| WebRTC					> Global Regular Expression Print, GREP Architecture	= SoundCloud				> uTorrent											< Comment App 				> Traffic Signature Management
+12.		Buffer				| SWAP						> Import / Export Architecture							= Google SketchUp			> Wix												< 3D App 					> Favourite Namespace Management
+13.		Theme				| HTML5						> Vector Pool Architecture								= SWF						> Search Engine Optimus								< Reader App				> Suggestion Event Organizer Management
+14.		Applications		| JAR						> Multilingual-Pad Architecture							= ALSong Player				> Symbian											< Metadata App	 			> Soldier Aspect Management
+15.		Framework			| Picture in Picture		> Mount Architecture									= ACDSee Studio				> Event Delegate									< Print App 				> Cloth Attire Start Management
+16.		Distro				| Distro					> Apt Repository Architecture							= Envato					> async												< Static App 				> Automation Opposite Matrix Management
+17.		Kernel				| Kernel					> Pseudo Cookie-Admin Architecture						= SSL Indent				> OAuth												< Memory App 				> Time-lapse CookieDeepawali Management
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------2
+Sort.	Generic Identity	| Linux Environment			> ! Open Source											= Windows Environment		> ! Microsoft Corporation							< Platform					> ! App App
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------3
 These are Collection of Abstract Programming Languages,
 not specific to Non-machines (means specific to Environment of Machines having canvas(es), makes it free form of Console/Technology).
 
 It has it's own architecture and production.
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------4
 $finding very funny-interestingly ,is "adult" (sensually) reach up-to 9x, which is, Cloud App (adult, need double-confirmation(okay! non-IIT)). Said loosing 8 more markets (for, not getting my REAL POWER WHICH IS EGO-LESS).
 																																				 FROM WHERE THEY WOULD BE SEEKING HELP (NEGATING ME), THEY WOULD FOUND SEEKING
 																																							HELP FROM SA-ME-ME, TOO Much FUNNY (MemeHawkins20247).
@@ -41,8 +41,8 @@ For example,
 		"INTERNET Architecture"	before then		(as C Language)				, start		MASTERING 	ace 		"non-technology" towards 'technical areas'.
 
 Lookalike features are here & there. It is about how I behaved with specified regardless.
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Close Most Sector(s)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------5
+Best Suitable Sector(s)
 1.	Driver App		: Privileged to ""										:
 2.	Web App			: Privileged to ""										:
 3.	Productive App	: Privileged to ""										:
@@ -60,7 +60,7 @@ Close Most Sector(s)
 15.	Print App		: Privileged to "XPS"									: [PaoBhaji: I don't use wrapper in notepad but at PrintAllAtOnce>, [Domino's Pizza: just Italian Crust>, [PolicyBazaar.com: i feel pity apart Mediclaim>, [inhabitable: to W3Schools> etc. Basically aero-dynamic designing.
 16.	Static App		: Privileged to "Google Docs"							: @Ruby etc. Basically consulate expert opinion.
 17. Memory App		: Privileged to "Automatic Spelling"					: +Keyboard, +Sprite, +PDF, +Tourist etc. Basically anchor.
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------6
 ये www.RedHat.com भाई साहब SSL बेचते है ना ? हम तो सोचे Linux Free है - VirtualBox sorry ,[VirtualBoss(initial release: 17 January 2007)]
 is VMWare sorry ,[VeryVeryWired!(today is a A-DATE: 17 January 2017)] !
 
@@ -71,44 +71,32 @@ Like "Time" is a being.
 
 ME: "i Feel Sensation about Myself.".
 Me Not, "Time" said from me as Body Architect. - Ruby Static
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------7
 Tom LOGO Kha-GIListan 16 Thak Save khatmAI HOt.000jaygaa.com ,aware 17 Thak Yahoo pay Rohnaa Padega. (वाप ! ,वाप होता है। )
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------8
 hath se 'gola' 3-leg-transistor hi toh insaan dekhaa hay , is-me-hi itnaa khush for , gola ka Stream too Stereo nahi dekhaa.
 Actually they can see only that in Computer upto, i realized lately ashamed.
 
 Because "lobhi", they couldn't finished or start to 16 , ego is forced destroyed.
 I don't feel "pain" getting Shringered, "UNDERSTANDABLY" not the Case for human. (I Saw Shringer's algorithm, suits me type, 3D people).
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------9
 Me writing this for, MY Convenience
 											only	(
 														for Development, [ENGLISH] WERE NOT INVENTED BY "NEITHER RED-INDIANS".
-																														DOGGY THEY'RE INTO & POPULAR Historically
+																														DOG-GY THEY'RE 	INTO & POPULAR Historically
 																																		OR NOT FOR
 																														1. GITHUB \ 2. MICROSOFT-WINDOWS
 																														कुत्ता job भौकते है , tab मारो।
 
 																																.. बाद में तुम , majaa करो ऎसे। एहि है नियम।
 													)
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-17.	Kernel			->	Kernel
-16.	Distro			->	Distro
-15. Framework		->	Picture in Picture
-14.	Applications	->	JAR
-13.	Theme			->	HTML5
-12.	Buffer			->	SWAP
-11.	Notification	->	WebRTC
-10.	Cabinet			->	Canonical
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------10
+Abbreviations:
 
-9.					->
-
-8.					->
-7.					->
-6.					->	RealTimeOS
-5.					->	BASH
-4.					->	KDE
-3.					->	GTK
-2.					->	Gnome
-1.					->	Qt
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	>, denotes "*which"
+	:, denotes "*describe"
+	|, denotes "*member"
+	=, denotes "*assign"
+	<, denotes "*interpret"
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------11
