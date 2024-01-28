@@ -113,7 +113,7 @@ Abbreviations:
 3.	>, denotes "*which"			| Engineer |
 4.	-, denotes "*independent"	| Doctor |
 5.	=, denotes "*assign"		| Creative |
-6.	<, denotes "*interpret"		| Teacher < Interpret 3X3Matrix < Traffic < Fuel < Electronics < Stock Market < Art & Craft < Tour operator <  |
+6.	<, denotes "*interpret"		| Teacher < Interpret Matrix < Traffic < Fuel < Electronics < Stock Market < Art & Craft < Tour Operator < Carpenter |
 7.	:, denotes "*describe"		| Science < Flower < Agriculture < Weather < Community |
 8.	;, denotes "*area"			| Sports < Foods |
 9.	,, denotes "*chunk"			| Driver |
