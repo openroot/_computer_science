@@ -3,23 +3,23 @@
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------0
 x.		Cushion				| MachineUserInterface		> MUI Architecture										= Immune System				> INTERNET Architecture								< IDE Collective Totality	> ICT Framework
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------1
-1.		Manual				| Qt 						>														= Visual C++				> Windows Programming								< Driver App				> 
-2.		Start-up			| Gnome 					>														= HTML 						> PHP												< Web App					> 
-3.		Boot				| GTK 						>														= Windows Forms App			> Traditional Forms App with ActiveX-Controller		< Productive App			> 
+1.		Manual				| Qt 						> Payload CAP Driver									= Visual C++				> Windows Programming								< Driver App				> 
+2.		Start-up			| Gnome 					> symlink tertiary										= HTML 						> PHP												< Web App					> 
+3.		Boot				| GTK 						> Scroll Series											= Windows Forms App			> Traditional Forms ActiveX-Controller				< Productive App			> 
 4.		License				| KDE	 					> Plasma												= XAML 						> Windows XAML App									< Graphical App				> 
-5.		Classification		| BASH 						>														= PowerShell 				> VBScript											< Terminal App				> 
-6.		Junction			| RealTimeOS				> Delta Label SATA										= SQL						> LINQ												< ERD App					> Twin-Set Mechanized SAD Management
-7.		Profile				|							>														= Kendo						> jQuery											< API App					> 
-8.		Sandbox				|							>														= eCommerce					> Magento											< AI App					> 
-9.		Assistance			|							>														= IoT						> AmazonWebService									< Cloud App					> 
+5.		Classification		| BASH 						> MIME Child Parent										= PowerShell 				> VBScript											< Terminal App				> 
+6.		Junction			| RealTime OS				> delta opaque											= SQL						> LINQ												< ERD App					> Twin-Set Mechanized SAD Management
+7.		Profile				| SHA vs MD5				> EXT File-system Name-length							= Kendo						> jQuery											< API App					> 
+8.		Sandbox				| Live Placeholder			> breadcrumb modal										= eCommerce					> Magento											< AI App					> 
+9.		Assistance			| Realtek HD				> Vista40GramGold Mandriva								= IoT						> AmazonWebService									< Cloud App					> 
 10.		Cabinet				| Canonical					> Debian												= Notepad Plus Plus			> Driver											< Writing App				> Institute Session Management
-11.		Notification		| WebRTC					> Global Regular Expression Print, GREP					= SoundCloud				> uTorrent											< Comment App 				> Traffic Signature Management
-12.		Buffer				| SWAP						> Import / Export										= Google SketchUp			> Wix												< 3D App 					> Favourite Namespace Management
-13.		Theme				| HTML5						> Vector Pool											= SWF						> Search Engine Optimus								< Reader App				> Suggestion Event Organizer Management
+11.		Notification		| WebRTC					> Global Regular Expression Print - GREP				= SoundCloud				> uTorrent											< Comment App 				> Traffic Signature Management
+12.		Buffer				| SWAP						> Import - Export										= Google SketchUp			> Wix												< 3D App 					> Favourite Namespace Management
+13.		Theme				| HTML5 -Let The Flow-Avart > Lightweight Directory Access Protocol - LDAP			= SWF -Spire				> Search Engine Optimus - AD						< Reader App				> Suggestion Event Organizer Management
 14.		Applications		| JAR						> Multilingual-Pad										= ALSong Player				> Symbian											< Metadata App	 			> Soldier Aspect Management
 15.		Framework			| Picture in Picture		> Mount													= ACDSee Studio				> Event Delegate									< Print App 				> Cloth Attire Start Management
 16.		Distro				| Distro					> Apt Repository										= Envato					> async												< Static App 				> Automation Opposite Matrix Management
-17.		Kernel				| Kernel					> Pseudo Cookie-Admin									= SSL Indent				> OAuth												< Memory App 				> Time-lapse CookieDeepawali Management
+17.		Kernel				| Kernel					> Pseudo Cookie Admin									= SSL Indent				> OAuth												< Memory App 				> Time-lapse CookieDeepawali Management
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------2
 Sort.	Generic Identity	| Linux Environment			> ! Open Source											= Windows Environment		> ! Microsoft Corporation							< Platform					> ! App App
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------3
