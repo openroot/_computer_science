@@ -105,15 +105,16 @@ Me writing this for, MY Convenience
 																																.. बाद में तुम , majaa करो ऎसे। एहि है नियम।
 													)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------11
-Abbreviations as Professions (each of set of 9 do have infinite positive numeric space):
+Professions. | each of set of 9 do have infinite positive numeric space |
+Abbreviations:
 
-1.	., denotes "*wrap"			[Resource<-Metal]
-2.	|, denotes "*member"		[Communication]
-3.	>, denotes "*which"			[Engineer]
-4.	-, denotes "*independent"	[Doctor]
-5.	=, denotes "*assign"		[Creative]
-6.	<, denotes "*interpret"		[Teacher]
-7.	:, denotes "*describe"		[Science<-Flower<-Agriculture<-Weather<-Community]
-8.	;, denotes "*area"			[Sports<-Foods]
-9.	,, denotes "*chunk"			[Driver]
+1.	., denotes "*wrap"			| Resource < Metal |
+2.	|, denotes "*member"		| Communication |
+3.	>, denotes "*which"			| Engineer |
+4.	-, denotes "*independent"	| Doctor |
+5.	=, denotes "*assign"		| Creative |
+6.	<, denotes "*interpret"		| Teacher < Interpret 3X3Matrix < Traffic < Fuel < Electronics < Stock Market < Art & Craft <  <  |
+7.	:, denotes "*describe"		| Science < Flower < Agriculture < Weather < Community |
+8.	;, denotes "*area"			| Sports < Foods |
+9.	,, denotes "*chunk"			| Driver |
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------12
