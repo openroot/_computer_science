@@ -1,0 +1,10 @@
+eyeOS
+---------------------------------------------------------------------------------------------0
+1.	Python							== Visual Basic						= C# .Net
+2.  F#								== ASP								= PHP
+3.	Zend							== Java								= jQuery
+4.	SVG								== SASS								= Unity
+5.	Data Structure					== JavaScript						= Fortran
+6.	W3Standards						== Lua								= Django
+7.	IoT - Raspberry PI				== Flash pre-install				= OEM company-install
+---------------------------------------------------------------------------------------------1
