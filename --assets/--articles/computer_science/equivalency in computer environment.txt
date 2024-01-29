@@ -1,6 +1,6 @@
 1.		Python 		equivalent to 		.NET Framework (.NET Standard++)
-2.		pip 		equivalent to 		NPM (.NET:Repository)
-3.		GTK 		equivalent to 		ActiveX Controllers (.NET:DLL)
+2.		pip 		equivalent to 		NPM (.NET Repository)
+3.		GTK 		equivalent to 		ActiveX Controllers (.NET DLL)
 4.
 5.
 7.
