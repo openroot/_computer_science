@@ -11,7 +11,9 @@ x.		Cushion				| Gallery - EyeOS Account	> time whatever is useless without trac
 6.		Django				| W3Standards				> 														= Lua						> 													< Adjoint Values			> Assistance Area
 7.		OEM company-install	| IoT - Raspberry PI		> 														= Flash pre-install			> 													< 							> 
 8.							| 							> 														= 							> 													< 							> 
+
 9.							| 							> 														= 							> 													< 							> 
+
 10.							| 							> 														= 							> 													< 							> 
 11.							| 							> 														= 							> 													< 							> 
 12.							| 							> 														= 							> 													< 							> 

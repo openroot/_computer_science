@@ -11,7 +11,9 @@ x.		Cushion				| MachineUserInterface		> MUI Architecture										= Immune Syst
 6.		Junction			| RealTime OS				> delta opaque											= SQL						> LINQ												< ERD App					> Twin-Set Mechanized SAD Management
 7.		Profile				| SHA vs MD5				> EXT File-system Name-length							= Kendo						> jQuery											< API App					> 
 8.		Sandbox				| Live Placeholder			> breadcrumb modal										= eCommerce					> Magento											< AI App					> 
+
 9.		Assistance			| Realtek HD				> Vista40GramGold Mandriva								= IoT						> AmazonWebService									< Cloud App					> 
+
 10.		Cabinet				| Canonical					> Debian												= Notepad Plus Plus			> Driver											< Writing App				> Institute Session Management
 11.		Notification		| WebRTC					> Global Regular Expression Print - GREP				= SoundCloud				> uTorrent											< Comment App 				> Traffic Signature Management
 12.		Buffer				| SWAP						> Import - Export										= Google SketchUp			> Wix												< 3D App 					> Favourite Namespace Management
@@ -33,7 +35,9 @@ Best suitable sector(s):
 6.	ERD App			: Privileged to; TRAI									: "Belgium or" - Denmark, "Saturn array" - not ISS, "SENSEX and SAP or Zoho" - not Kappa, "Bagui Bird release" - real fire AE "তাঁতি পাখি", "Python" - language do not improve, "<justice>" - <> etc. Basically "Nesting Comparative Corp Fest" - ival. Basically "I know the task is not finished yet, process till get a result to disturb house" - use twin states of registers because it's register powred up-to non-powred house(storage).
 7.	API App			: Privileged to;										:
 8.	AI App			: Privileged to;										:
+
 9.	Cloud App		: Privileged to;										:
+
 10.	Writing App		: Privileged to;										: Ubuntu Snap Store, Linux AppImage, Timezone, Graphics Driver, Microsoft Excel etc. Basically state of country of state of country, in simple words: update indefinitely, rotates amongst two and two only.
 11.	Comment App		: Privileged to;										: Bajaj powered Tempo, School powered Uniform, Unix powered EOL, Notepad++ powered `Skip autocheck at ALL UPPER CASE WORD`, Indian Government powered MCA etc. Basically identical tip need maximum recognition.
 12.	3D App			: Privileged to;										: {Google Picasa}, {Foxit PDF Reader}, {Wine}, {DOSBox} etc. Basically self or nothing.
@@ -53,6 +57,7 @@ Abbreviations:
 6.	<, denotes "*interpret"
 7.	:, denotes "*describe"
 8.	;, denotes "*area"
+
 9.	,, denotes "*chunk"
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------5
 These are Collection of Abstract Programming Languages,
@@ -116,5 +121,6 @@ Abbreviations:
 6.	<, denotes "*interpret"		| Teacher < Interpret Matrix < Traffic < Fuel < Electronics < Stock Market < Art & Craft < Tour Operator < Carpenter |
 7.	:, denotes "*describe"		| Science < Flower < Agriculture < Weather < Community |
 8.	;, denotes "*area"			| Sports < Foods |
+
 9.	,, denotes "*chunk"			| Driver |
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------12
