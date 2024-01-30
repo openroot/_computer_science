@@ -10,7 +10,7 @@ x.		Cushion				| MachineUserInterface		> MUI Architecture										= Immune Syst
 5.		Classification		| BASH 						> MIME Child Parent										= PowerShell 				> VBScript											< Terminal App				> 
 6.		Junction			| RealTime OS				> delta opaque											= SQL						> LINQ												< ERD App					> Twin-Set Mechanized SAD Management
 7.		Profile				| SHA vs MD5				> EXT File-system Name-length							= Kendo						> jQuery											< API App					> 
-8.		Sandbox				| Live Placeholder			> breadcrumb modal										= eCommerce					> Magento											< AI App					> 
+8.		Sandbox				| Live Placeholder			> breadcrumb modal										= eCommerce					> Magento											< AI App					> Steam Difference Management
 
 9.		Assistance			| Realtek HD				> Vista40GramGold Mandriva								= IoT						> AmazonWebService									< Cloud App					> 
 
