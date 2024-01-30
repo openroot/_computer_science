@@ -12,7 +12,7 @@ x.		Cushion				| MachineUserInterface		> MUI Architecture										= Immune Syst
 7.		Profile				| SHA vs MD5				> EXT File-system Name-length							= Kendo						> jQuery											< API App					> 
 8.		Sandbox				| Live Placeholder			> breadcrumb modal										= eCommerce					> Magento											< AI App					> Steam Difference Management
 
-9.		Assistance			| Realtek HD				> Vista40GramGold Mandriva								= IoT						> AmazonWebService									< Cloud App					> 
+9.		Assistance			| Realtek HD				> Vista40GramGold Mandriva								= IoT						> AmazonWebService									< Cloud App					> Irreversible Hunger Management
 
 10.		Cabinet				| Canonical					> Debian												= Notepad Plus Plus			> Driver											< Writing App				> Institute Session Management
 11.		Notification		| WebRTC					> Global Regular Expression Print - GREP				= SoundCloud				> uTorrent											< Comment App 				> Traffic Signature Management
