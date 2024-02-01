@@ -32,20 +32,20 @@ Best suitable sector(s):
 3.	Productive App	: Privileged to;										:
 4.	Graphical App	: Privileged to;										:
 5.	Terminal App	: Privileged to;										:
-6.	ERD App			: Privileged to; TRAI									: "Belgium or" - Denmark, "Saturn array" - not ISS, "SENSEX and SAP or Zoho" - not Kappa, "Bagui Bird release" - real fire AE "তাঁতি পাখি", "Python" - language do not improve, "<justice>" - <> etc. < Basically; "Nesting Comparative Corp Fest" - ival. Basically "I know the task is not finished yet, process till get a result to disturb house" - use twin states of registers because it's register powred up-to non-powred house(storage).
+6.	ERD App			: Privileged to; TRAI									: "Belgium or" - Denmark, "Saturn array" - not ISS, "SENSEX and SAP or Zoho" - not Kappa, "Bagui Bird release" - real fire AE "তাঁতি পাখি", "Python" - language do not improve, "<justice>" - <> < Basically; "Nesting Comparative Corp Fest" - ival. Basically "I know the task is not finished yet, process till get a result to disturb house" - use twin states of registers because it's register powred up-to non-powred house(storage).
 7.	API App			: Privileged to;										:
 8.	AI App			: Privileged to;										:
 
 9.	Cloud App		: Privileged to;										:
 
-10.	Writing App		: Privileged to;										: Ubuntu Snap Store, Linux AppImage, Timezone, Graphics Driver, Microsoft Excel etc. < Basically; state of country of state of country, in simple words: update indefinitely, rotates amongst two and two only.
-11.	Comment App		: Privileged to;										: Bajaj powered Tempo, School powered Uniform, Unix powered EOL, Notepad++ powered `Skip autocheck at ALL UPPER CASE WORD`, Indian Government powered MCA etc. < Basically; identical tip need maximum recognition.
-12.	3D App			: Privileged to;										: {Google Picasa}, {Foxit PDF Reader}, {Wine}, {DOSBox} etc. < Basically; self or nothing.
-13.	Reader App		: Privileged to; App Store-base							: (Crypt Currency), "Chowmein in Lunch", "#Linkedin", Stove-Oven etc. < Basically; set theory.
-14.	Metadata App	: Privileged to; PHP Framework							: [Joystick Mapper], [Colin Cleaner] etc. < Basically; minimum 2nd party needed to digest.
-15.	Print App		: Privileged to; XPS									: [PaoBhaji: I don't use wrapper in notepad but at PrintAllAtOnce>, [Domino's Pizza: just Italian Crust>, [PolicyBazaar.com: i feel pity apart Mediclaim>, [inhabitable: to W3Schools> etc. < Basically; aero-dynamic designing.
-16.	Static App		: Privileged to; Google Docs							: @Ruby etc. < Basically; consulate expert opinion.
-17. Memory App		: Privileged to; Automatic Spelling						: +Keyboard, +Sprite, +PDF, +Tourist etc. < Basically; anchor.
+10.	Writing App		: Privileged to;										: Ubuntu Snap Store, Linux AppImage, Timezone, Graphics Driver, Microsoft Excel < Basically; state of country of state of country, in simple words: update indefinitely, rotates amongst two and two only.
+11.	Comment App		: Privileged to;										: Bajaj powered Tempo, School powered Uniform, Unix powered EOL, Notepad++ powered `Skip autocheck at ALL UPPER CASE WORD`, Indian Government powered MCA < Basically; identical tip need maximum recognition.
+12.	3D App			: Privileged to;										: {Google Picasa}, {Foxit PDF Reader}, {Wine}, {DOSBox} < Basically; self or nothing.
+13.	Reader App		: Privileged to; App Store-base							: (Crypt Currency), "Chowmein in Lunch", "#Linkedin", Stove-Oven < Basically; set theory.
+14.	Metadata App	: Privileged to; PHP Framework							: [Joystick Mapper], [Colin Cleaner] < Basically; minimum 2nd party needed to digest.
+15.	Print App		: Privileged to; XPS									: [PaoBhaji: I don't use wrapper in notepad but at PrintAllAtOnce>, [Domino's Pizza: just Italian Crust>, [PolicyBazaar.com: i feel pity apart Mediclaim>, [inhabitable: to W3Schools> < Basically; aero-dynamic designing.
+16.	Static App		: Privileged to; Google Docs							: @Ruby < Basically; consulate expert opinion.
+17. Memory App		: Privileged to; Automatic Spelling						: +Keyboard, +Sprite, +PDF, +Tourist < Basically; anchor.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------4
 Abbreviations:
 
