@@ -5,6 +5,7 @@
 4. command: nano /etc/php/8.1/cli/conf.d/20-xdebug.ini // command: php --ini (to get actual path of the file)
 5. Add following lines & Ctrl+X
 
+zend_extension=xdebug.so
 xdebug.mode=debug
 xdebug.start_with_request=yes
 xdebug.discover_client_host=1

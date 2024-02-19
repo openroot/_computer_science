@@ -10,6 +10,8 @@
 > GRANT ALL PRIVILEGES ON *.* TO 'devop'@'localhost' WITH GRANT OPTION;
 > SET GLOBAL default_storage_engine = 'InnoDB';
 
+> ALTER USER 'devop'@'localhost' IDENTIFIED BY '<default_password>'; // changes into new password
+
 [[export DB]]
 > mysqldump -u[username] -p[password] -h[host] --routines --triggers  [dbname] -r <filename>.sql
 e.g.,
