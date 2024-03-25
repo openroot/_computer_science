@@ -12,24 +12,20 @@ xdebug.discover_client_host=1
 xdebug.log_level=0
 
 6. command: apt install composer
-7. command: php -S localhost:4000 -t /home/devop/github/_php/test_f3/public; // another example, php -S localhost:2000 -t /home/devop/github/_php/openroot.localhost
+7. command: php -S localhost:4000 -t /home/devop/github/_php/test_f3/public;
 8. By now, php (without mysql) up & running for visual studio code with xdebug .
 Consecutive command activates specification up http://localhost:4000 (for validate)
 
 // PHP Server
 1. Open directory usr->bin as root.
-2. Paste 'devop_background_services' directory from 'droot-kalibackgroundservices' github project.
+2. Paste 'devop_background_services' directory from '_linux_background_services' github project.
 3. Open directory etc->systemd->system as root.
-4. Paste all files of 'system' directory from 'droot-kalibackgroundservices' github project.
+4. Paste all files of 'system' directory from '_linux_background_services' github project.
 5. command: systemctl status php_serve__test_f3.service
 // it would have been loaded with 'inactive' status
 6. command: systemctl enable php_serve__test_f3.service
 7. command: systemctl start php_serve__test_f3.service
-8. command: systemctl status php_serve__droot-adminer.service
-// it would have been loaded with 'inactive' status
-9. command: systemctl enable php_serve__droot-adminer.service
-10. command: systemctl start php_serve__droot-adminer.service
-11. By now, automated php-server for the above two projects would have been activated.
+8. By now, automated php-server for above project(s) would have been activated.
 
 // MySQL Installations
 1. command: apt install mysql-server
@@ -44,17 +40,16 @@ Consecutive command activates specification up http://localhost:4000 (for valida
 10. command: mysql -u devop -p // type & enter: <default_password>
 11. command: show databases;
 // Shows existing databases.
-12. Browse to: http://localhost:9000/adminer
+12. Open 'Antares' application.
 // Use same credentials to login.
 13. CREATE DATABASE test_f3; for github project 'test_f3'.
 14. By now, MySQL with a for github project 'test_f3' would have been up & running.
 
 // Validate Setup
 1. Restart system.
-2. Browse to: http://localhost:9000/adminer // Validates MySQL up & running
-3. Browse to: http://localhost:4000/info // Validates a github project 'test_f3' up & running.
-4. Open 'Visual Studio Code' -> open 'test_f3' folder -> Put breakpoint at line 214 in '/public/index.php' file
-5. Press F5 -> refresh 'http://localhost:4000/info'
+2. Browse to: http://localhost:4000/info // Validates a github project 'test_f3' up & running.
+3. Open 'Visual Studio Code' -> open 'test_f3' folder -> Put breakpoint at line 214 in '/public/index.php' file
+4. Press F5 -> refresh 'http://localhost:4000/info'
 // Breakpoint would have been hit.
 
 ===
